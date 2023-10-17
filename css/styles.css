@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-image: linear-gradient(to bottom, #bf09d7, #3079ff);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* --------------------------------------------------- */
+
+#create-container {
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+#welcome {
+  background-image: url(../img/bg-form.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+}
+
+#banner-layer {
+  background-color: rgba(25, 11, 122, 0.7);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  flex-direction: column;
+}
+
+#banner-layer h1 {
+  font-size: 4rem;
+  word-spacing: 50rem;
+  margin-bottom: 1.5rem;
+  margin-left: 30px;
+  color: #fff;
+}
+
+/* --------------------------------------------------- */
+
+#create-account {
+  background-color: #fff;
+  padding: 2rem;
+}
+
+#create-account h1 {
+  text-align: center;
+  color: #444;
+}
+
+#create-account p {
+  color: #ccc;
+  padding: 20px 0;
+}
+
+#password-security span {
+  color: #444;
+  cursor: pointer;
+}
+
+#password-security span:hover {
+  text-decoration: underline;
+}
+
+.form-control label {
+  display: block;
+  color: #444;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.form-control button {
+  padding: 15px 25px;
+  border-radius: 50px;
+  float: right;
+  margin: 20px 0;
+  border: none;
+  background-color: #9eda68;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------- */
+
+#password-security {
+  padding: 0 20px;
+}
+
+#password-security span {
+  color: #444;
+  cursor: pointer;
+}
+
+#password-security span:hover {
+  text-decoration: underline;
+}
+
+#password-success {
+  border: 1px solid #6da0ff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#password-success span {
+  display: block;
+  font-weight: bold;
+}
+
+span#password-text {
+  color: #9eda68;
+}
+
+span#password-generated {
+  color: #444;
+  font-size: 1.4rem;
+}
+
+/* --------------------------------------------------- */
+
+#custumization-password {
+  border: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+#custumization-password span {
+  display: block;
+  color: #ccc;
+  padding: 20px 50px;
+}
+
+.form-custumization {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-custumization label {
+  color: #444;
+  font-weight: bold;
+}
+
+.form-custumization input {
+  margin: 15px 0;
+}
+
+.form-custumization input[type="text"] {
+  width: 5%;
+  padding: 5px;
+}
+
+.form-custumization button {
+  background-color: #33acff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+/* --------------------------------------------------- */
+
+.hide {
+  display: none;
+}

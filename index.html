@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="create-container">
+        <div id="welcome">
+          <div id="banner-layer">
+            <h1>Seja bem-vindo</h1>
+          </div>
+        </div>
+        <div id="create-account">
+          <h1>Crie sua conta:</h1>
+          <p>Registre-se para utilizar todas as funcionalidades do sistema</p>
+          <div class="form-control">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Digite seu nome"
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">E-mail</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+            />
+          </div>
+          <div class="form-control">
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Digite a sua senha"
+            />
+          </div>
+          <div id="password-security">
+            <p>
+              Quer ajuda para criar uma senha segura?
+              <span id="btn-password"><strong>Clique aqui.</strong></span>
+            </p>
+          </div>
+          <div id="custumization-password" class="hide">
+            <span>Selecione as opções que você deseja</span>
+            <div class="form-custumization">
+              <label for="chars-quantity">Quantidade de caracteres:</label>
+              <input
+                type="text"
+                value="10"
+                name="chars-quantity"
+                id="chars-quantity"
+              />
+            </div>
+            <div class="form-custumization">
+              <label for="letters">Letras:</label>
+              <input type="checkbox" name="letters" id="letters" />
+            </div>
+            <div class="form-custumization">
+              <label for="numbers">Números:</label>
+              <input type="checkbox" name="numbers" id="numbers" />
+            </div>
+            <div class="form-custumization">
+              <label for="symbols">Símbolos</label>
+              <input type="checkbox" name="symbols" id="symbols" />
+            </div>
+            <div class="form-custumization">
+              <button id="btn-create">Criar senha</button>
+            </div>
+          </div>
+          <div id="password-success" class="hide">
+              <span id="password-text">Aqui está a sua senha:</span>
+              <span id="password-generated">...</span>
+            </div>
+          <div class="form-control">
+            <label for="confirm-password">Confirmação de Senha</label>
+            <input
+              type="password"
+              id="confirm-password"
+              name="confirm-password"
+              placeholder="Confirme a sua senha"
+            />
+          </div>
+          <div class="form-control">
+            <button id="btn-register">Cadastrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
